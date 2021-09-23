@@ -54,3 +54,70 @@ font-size: 18px;
 O viewport é a parte da tela que está sendo exibida. No caso dos navegadores web, é o que é exibido na janela/tela do documento. Conteúdos que estão fora do viewport só serão exibidos quando feito um scroll da área de visualização.
 
 =======================================================================
+
+Porcentagem
+
+Porcentagens
+
+Descrição
+As porcentagens são valores bem flexíveis
+Em muitos casos é tratado da mesma maneira que as distâncias <length>
+Sempre será relativo a algum valor
+
+💻 Exemplo
+
+Relativo ao elemento pai
+
+html
+
+ <div>
+      <p>Morena</p>
+      <div>
+        <p>Morena</p>   <!-- uma div dentro de outra div-->
+        <div>
+          <p>Morena</p>
+        </div>
+      </div>
+      <div>
+
+css
+
+html {
+font-size: 20px; /_ a font-size do navegador geralmente é de 16px_/
+}
+
+div {
+font-size: 50%; /_ a porcentagem de cada <div> está sendo aplicada referente ao elemento pai, respeitanbdo a cascata._/
+}
+
+=======================================================================
+
+Position
+
+- Posições
+
+<position>
+
+Representa um conjunto de coordenadas 2D:
+top, right, bottom, left e center
+
+- Usado para alguns tipos de propriedades como o background-position
+
+- Não confundir com a propriedade position
+
+Exemplo:
+
+.box {
+width: 500px;
+height: 500px;
+background-image: url(http://source.unsplash.com/random);
+
+background-repeat: no-repeat; /_está fazendo com que a imagem não se repita_/
+
+background-position: center; /_está trabalhando com as posições da imagem dentro da caixa..._/
+
+margin-left: 28em; /_está aplicando em volta da imagem_/
+margin-top: 5em; /_está aplicando em volta da imagem_/
+}
+
+=======================================================================

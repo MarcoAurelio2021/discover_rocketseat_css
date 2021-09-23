@@ -1,0 +1,12 @@
+.box {
+  width: 500px;
+  height: 500px;
+  background-image: url(http://source.unsplash.com/random);
+
+  background-repeat: no-repeat; /* está fazendo com que a imagem não se repita */
+
+  background-position: center; /* está trabalhando com as posições da imagem dentro da caixa...*/
+
+  margin: auto; /*está aplicando em volta da imagem*/
+  /* está aplicando em volta da imagem*/
+}
