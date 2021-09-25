@@ -92,9 +92,9 @@ font-size: 50%; /_ a porcentagem de cada <div> está sendo aplicada referente ao
 
 =======================================================================
 
-Position
+# Position
 
-- Posições
+Posições
 
 <position>
 
@@ -116,8 +116,21 @@ background-repeat: no-repeat; /_está fazendo com que a imagem não se repita_/
 
 background-position: center; /_está trabalhando com as posições da imagem dentro da caixa..._/
 
-margin-left: 28em; /_está aplicando em volta da imagem_/
-margin-top: 5em; /_está aplicando em volta da imagem_/
+margin-left: 28rem; /_está aplicando em volta da imagem_/
+margin-top: 5rem; /_está aplicando em volta da imagem_/
 }
 
 =======================================================================
+
+# Funções
+
+Em programação, funções são reconhecidas por causar um reaproveitamento de código.
+Exemplos de funções do CSS:
+
+rgb()
+hsl()
+url()
+calc()
+Dentro dos parêntesis são passados argumentos
+
+Link da documentação do MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions
