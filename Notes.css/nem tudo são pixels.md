@@ -134,3 +134,30 @@ calc()
 Dentro dos parêntesis são passados argumentos
 
 Link da documentação do MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions
+
+# Strings e identificadores
+
+Descrição
+Strings: texto envolto em aspas
+.box::after {
+content: "Isso é uma string"
+}
+Identificadores: podemos ter nomes de cores como red, black, gold
+
+Exemplo:
+
+.box {
+height: 500px;
+width: 500px;
+background-image: url(http://source.unsplash.com/random);
+
+background-repeat: no-repeat; /_está fazendo com que a imagem não se repita_/
+background-position: bottom right;
+}
+
+.box::after {
+content: 'Aqui vem uma mensagem';
+color: white;
+}
+
+=======================================================================
