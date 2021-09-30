@@ -257,7 +257,7 @@ color:blue;
 
 ==============================================================
 
-# nth-child odd e even
+## nth-child odd e even
 
 Descrição
 :nth-child(odd) e :nth-child(even)
@@ -278,4 +278,54 @@ ul li:nth-child(odd) {
 color: gray;
 }
 
+==============================================================
+
+# hover e focus
+
+Descrição
+Ações do usuário
+Algumas estilos só são aplicados quando o usuário faz alguma ação na página.
+
+## :hover
+
+a:hover {
+color: red;
+}
+Vai mudar a cor do link para vermelho quando o usuário passar o mouse sobre o link
+
+## :focus
+
+È aplicado quando o elemento recebe o foco da ação do usuário que pode ser feita utilizando o teclado ou clicando no elemento com o mouse. É comumente usado em campos de input como uma forma de mostrar qual o input "ativo".
+
+input:focus {
+color: red;
+}
+==============================================================
+
+# disabled e required
+
+Descrição
+Também podemos usar atributos para selecionar elementos no CSS
+
+Atributos
+:disabled
+
+HTML
+
+<input type="text" disabled>
+CSS
+
+input:disabled {
+background-color: green;
+}
+:required
+
+HTML
+
+<input type="text" required>
+CSS
+
+input:required {
+background-color: red;
+}
 ==============================================================
