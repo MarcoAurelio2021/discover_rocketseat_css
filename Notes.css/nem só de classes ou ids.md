@@ -185,3 +185,97 @@ color: red;
 }
 
 ==============================================================
+
+# :first-child
+
+Descrição
+
+### :first-child
+
+É quando queremos selecionar o primeiro filho de um grupo de elementos.
+
+HTML
+
+<ul>
+  <li>Gratidão</li>
+  <li>Esperança</li>
+  <li>Fé</li>
+</ul>
+CSS
+
+ul li:first-child {
+font-weight: bold;
+}
+
+==============================================================
+
+### :nth-of-type
+
+Descrição
+
+:nth-of-type()
+Pega o elemento por tipo e posição
+
+HTML
+
+<article>
+  <h3>Gratidão</h3>
+  <p>Se você olhar com atenção os detalhes da sua vida, encontrará mais motivos para gratidão do que para reclamação.</p> 
+  <p>Gratidão é quando você, mesmo diante de um turbilhão de problemas, ainda agradece por ter saúde, lucidez, fé e forças para continuar.</p> 
+  <p>Gratidão é o segredo. Tanto pelas coisas boas que aconteceram, quanto pelas coisas que no final viraram lições.</p>
+</article>
+
+CSS
+
+article p:nth-of-type(2) {
+font-weight: bold;
+}
+
+==============================================================
+
+# nth-child
+
+Descrição
+:nth-child()
+É quando queremos selecionar o primeiro filho de um grupo de elementos.
+
+HTML
+
+<article>
+  <h3>Gratidão</h3>
+  <p>Se você olhar com atenção os detalhes da sua vida, encontrará mais motivos para gratidão do que para reclamação.</p> 
+  <p>Gratidão é quando você, mesmo diante de um turbilhão de problemas, ainda agradece por ter saúde, lucidez, fé e forças para continuar.</p> 
+  <p>Gratidão é o segredo. Tanto pelas coisas boas que aconteceram, quanto pelas coisas que no final viraram lições.</p>
+</article>
+
+CSS
+
+article h1:nth-child(1) {
+font-weight: bold;
+color:blue;
+}
+
+==============================================================
+
+# nth-child odd e even
+
+Descrição
+:nth-child(odd) e :nth-child(even)
+even - números pares
+odd - números ímpares
+HTML
+
+<ul>
+  <li>Gratidão</li>
+  <li>Esperança</li>
+  <li>Fé</li>
+  <li>Liberdade</li>
+</ul>
+
+CSS
+
+ul li:nth-child(odd) {
+color: gray;
+}
+
+==============================================================
