@@ -1,12 +1,1 @@
-a:hover {
-  color: grey;
-  font-weight: bold;
-}
 
-input:hover {
-  border-color: blue;
-}
-
-input:focus {
-  color: red;
-}
