@@ -61,6 +61,7 @@ Quando o position é absolute o elemento é deslocado saindo do fluxo normal. O 
 
 Descrição
 Quando aplicado o position fixed é como se criasse um elemento flutuante que fica fixo na página, independente do scrolling feito.
+
 =======================================================================
 
 # Element Stacking
@@ -68,4 +69,5 @@ Quando aplicado o position fixed é como se criasse um elemento flutuante que fi
 Descrição
 
 É o empilhamento de elementos. Podemos usar o z-index para determinar a ordem da posição do elemento. Quanto maior o z-index, mais "acima" vai aparecer o elemento.
+
 =======================================================================
