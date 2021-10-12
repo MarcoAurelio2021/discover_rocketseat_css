@@ -71,3 +71,28 @@ Descrição
 É o empilhamento de elementos. Podemos usar o z-index para determinar a ordem da posição do elemento. Quanto maior o z-index, mais "acima" vai aparecer o elemento.
 
 =======================================================================
+
+# Flex
+
+Descrição
+
+Nessa aula vamos ver uma introdução de como posicionar elementos usando o CSS Flexbox
+
+Flexbox
+
+Nos permite posicionar os elementos dentro da caixa
+Controle em uma dimensão (horizontal ou vertical)
+Alinhamento, direcionamento, ordenar e tamanhos
+div.parent {
+display: flex;
+}
+
+Flex-direction
+
+Qual a direção do flex: horizontal ou vertical
+row | column
+Alinhamento
+justify-content
+align-items
+
+=======================================================================
