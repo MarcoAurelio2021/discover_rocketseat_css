@@ -96,3 +96,61 @@ justify-content
 align-items
 
 =======================================================================
+
+# Grid
+
+- Posicionamento do elemento dentro da caixa.
+- Posicionamento horizontal e vertical ao mesmo tempo.
+- pode ser flexível ou fixo.
+- cria espaços para os elementos filhos habitarem.
+
+HTML
+
+<body>
+  <header>Topo</header>
+  <main>Conteúdo</main>
+  <aside>Informações adicionais</aside>
+  <footer>Rodapé</footer>
+</body>
+
+CSS
+
+body {
+margin: 0;
+height: 100vh;
+display: grid;
+grid-template-areas:
+"header header"
+"main aside" /_ as aspas vai definir quantas linhas vai ter meu layout, dentro vou definir as colunas. _/
+"footer footer";
+
+grid-template-rows: 80px 1fr 100px; /_ vai definir o tamanho das linhas _/
+/_ 1fr => vai preencher tudo que tenho de espaço, ela é flexível ao tamanho da página..._/
+grid-template-columns: 1fr 200px; /_ vai definir o tamanho das colunas_/
+}
+
+header {
+
+grid-area: header; /_ vai definir a posição que cada um vai ocupar_/
+background-color: green;
+}
+
+main { display:flex; /_ como teste coloquei um display: flex; para alinhar o conteúdo ao meio, junto com as propriedades_/
+grid-area: main;
+background-color: red;
+justify-content: center; /_ teste_/
+align-items: center; /_ teste_/
+
+}
+
+aside {
+grid-area: aside;
+background-color: blue;
+}
+
+footer {
+grid-area: footer;
+background-color: gray;
+}
+
+=======================================================================
