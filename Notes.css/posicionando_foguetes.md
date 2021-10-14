@@ -154,3 +154,8 @@ background-color: gray;
 }
 
 =======================================================================
+
+# Grid ou Flexbox
+
+Podemos usar o Display Flex e Display Grid ao mesmo tempo.
+Mas não no mesmo elemento, um pode dar conflito com o outro.
