@@ -78,3 +78,52 @@ background-size: auto 8px;
 background-size: auto auto;
 
 ==========================================================================
+
+# Background-origin
+
+Descrição
+A propriedade background-origin é quem define o ponto de origem de uma imagem específica.
+/_ Principais valores _/
+background-origin: border-box;
+background-origin: padding-box;
+background-origin: content-box;
+
+### O background-clip
+
+define se a cor ou imagem do background iniciam debaixo de sua área de borda, preenchimento ou conteúdo.
+/_ Principais valores _/
+
+background-clip: border-box;
+background-clip: padding-box;
+background-clip: content-box;
+background-clip: text;
+
+==========================================================================
+
+# Background-attachment
+
+Descrição
+A propriedade background-attachment determina se a posição da imagem vai ser fixa ou se vai rolar junto com o conteúdo.
+
+/_ Principais valores _/
+background-attachment: scroll;
+background-attachment: fixed;
+background-attachment: local;
+==========================================================================
+
+# Gradient
+
+Descrição
+
+linear-gradient() é a função usada para criar gradient linear com o CSS.
+background: linear-gradient(45deg, red, yellow)
+
+radial-gradient() é a função usada para criar gradient circular.
+background: radial-gradient(green, red, yellow)
+background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 0, 0, 0.2))
+==========================================================================
+
+# Múltiplos valores
+
+Descrição
+Podemos aplicar múltiplos backgrounds em um mesmo elemento, podendo ter cor sólida, gradiente ou imagem. Para isso basta separar por vírgula cada background.
