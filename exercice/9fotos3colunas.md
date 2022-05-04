@@ -1,4 +1,4 @@
-<!-- <div class="gallery">
+<div class="gallery">
       <img src="https://images.unsplash.com/photo-1620665316311-b21dd386bd86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" id="1" alt="">
       <img src="https://images.unsplash.com/photo-1620665316311-b21dd386bd86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" id="2" alt="">
       <img src="https://images.unsplash.com/photo-1620665316311-b21dd386bd86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" id="3" alt="">
@@ -8,7 +8,7 @@
       <img src="https://images.unsplash.com/photo-1620665316311-b21dd386bd86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" id="7" alt="">
       <img src="https://images.unsplash.com/photo-1620665316311-b21dd386bd86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" id="8" alt="">
       <img src="https://images.unsplash.com/photo-1620665316311-b21dd386bd86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" id="9" alt="">
-    </div> -->
+    </div>
 
 
 <!-- 
